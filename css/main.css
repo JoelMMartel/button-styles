@@ -24,40 +24,64 @@ div {
   border-color: #333;
 }
 
-.btn:hover {
-  background-color: #000;
-  border: solid 3px;
-  border-color: #000;
-}
-
-.btn-subtle {
-  background-color: #ccc;
-  color: #fff;
+.btn-small {
   display: inline-block;
   padding: .4em .75em .3em;
   border-radius: 8px;
   text-decoration: none;
-  font-size: 1.125rem;
-  border: solid 3px;
+  font-size: .875rem;
+  border: solid 3px #666;
+  border-color: #333;
+}
+
+.btn-big {
+  display: inline-block;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border: solid 3px #666;
+  border-color: #333;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+}
+.btn-subtle {
+  background-color: #ccc;
+  color: #fff;
   border-color: #ccc;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border-color: #333;
+}
+
+.btn-warning {
+  background-color: #f33;
+  color: #fff;
+  border-color: #f33;
+}
+
+.btn-small + .btn-warning {
+  background-color: #f33;
+  color: #fff;
+  border-color: #f33;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+  border: solid 3px;
+  border-color: #000;
 }
 
 .btn-subtle:hover {
   background-color: #666;
   border: solid 3px;
   border-color: #666;
-}
-
-.btn-ghost {
-  background-color: #fff;
-  color: #000;
-  display: inline-block;
-  padding: .4em .75em .3em;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 1.125rem;
-  border-color: #000;
-  border: solid 3px;
 }
 
 .btn-ghost:hover {
@@ -67,28 +91,8 @@ div {
   color: #fff;
 }
 
-.btn-warning {
-  background-color: #f33;
-  color: #fff;
-  display: inline-block;
-  padding: .4em .75em .3em;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 1.125rem;
-  border: solid 3px;
-  border-color: #f33;
-}
-
 .btn-warning:hover {
   background-color: #933;
   border: solid 3px;
   border-color: #933;
-}
-
-.btn-small {
-  font-size: .875rem;
-}
-
-.btn-big {
-  font-size: 1.5rem;
 }
